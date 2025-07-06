@@ -1,0 +1,162 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.page-header {
+    background-color: #c26100;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'sans-serif', 'Arial';
+}
+
+footer {
+    font-size: 12pt;
+    font-style: italic;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #c26100;
+}
+
+.author_date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form,
+.post-form h2 {
+    padding-right: 1em;
+    padding-left: 0.5em;
+}
+
+.post-form textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.post-form input {
+    width: 30%;
+}
+
+.ingredients input {
+    width: 11%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    color: #000000;
+}
+
+.top-menu .bi {
+    position: relative;
+    top: 5px;
+}
+
+.logout-form {
+}
+
+.logout-button {
+    font-size: 12pt;
+    cursor: pointer;
+    border: 1px solid #000000;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a,
+.post h2 a:visited {
+    color: #000000;
+}
+
+.post > .actions  {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    float: right;
+    border: none;
+    display: inline-grid;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #000000;
+    background: none;
+    float: right;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    color: #000000;
+}
+
+.btn-secondary:active {
+}
+
+.btn-remove {
+    background-color: transparent;
+    font-size: 12pt;
+}
+
+.bi-pencil-fill {
+    position: relative;
+    font-size: 12pt;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
+    font-family: 'sans-serif', 'Arial';
+}
+
+.btn-default,
+.btn-default:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.post-body {
+    display: inline-grid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    float: right;
+}

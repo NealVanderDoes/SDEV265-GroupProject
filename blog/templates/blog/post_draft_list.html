@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <h1>Drafts</h1>
+    <h5>Please finish editing your recipe and hit publish to submit.</h5>
+    {% for post in posts %}
+        {% if post.author == request.user %}
+            <div class="post">
+                <p class="date">created: {{ post.created_date|date:'d-m-Y' }}</p>
+                <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+                <p>{{ post.text|truncatechars:200 }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+{% endblock %}
