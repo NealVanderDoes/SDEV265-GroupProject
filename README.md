@@ -43,7 +43,7 @@
 - Login/Logout: Click the lock icon in the top right to log in to an existing account or create a new one. To log out, click "Logout" in the top right to the left of the account name when logged in.
 
 
-- Creating a post: Open the website and click the "+" icon in the top right. This will take you to the post creation page.
+- Creating a post: Open the website and click the "+" icon in the top right. This will take you to the post-creation page.
 
 
 - Uploading a post: Fill out the various required boxes for a post and click "save." This will save your post as a draft until you click "publish." If you want to access your drafts, click the pencil icon to the left of the "+" icon in the top right. 
@@ -56,8 +56,9 @@
 
 # 4. Changelog
 - Latest update: Added Search Bar feature and attaching a Picture to posts. (Credit to Amy for the Search Bar feature)
+  - Switched to uv for dependency management.
 
-- Previous update: Added Logout feature and users can create non-admin accounts which allow them to create, edit, and delete their posts.
+- Previous update: Added Logout feature, and users can create non-admin accounts which allow them to create, edit, and delete their posts.
 
 # 5. License and author info
 Authors: Amy Jarvis, Charles Shaneck, Cristian Escobedo, Marcin Brodowicz, Neal Vander Does | Contact us through IvyTech emails if necessary.
